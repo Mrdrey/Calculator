@@ -55,7 +55,7 @@ export default function Calculator() {
                     <button className="btn" onClick={() => handleOperation('9')}>9</button>
 
 
-                    <button onClick={calculateResult}>=</button>
+                    <button className="operator" onClick={calculateResult}>=</button>
 
                 </div>
                 <button style={{ marginLeft: 127 }} className="btn" onClick={() => handleOperation('0')}>0</button>

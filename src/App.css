@@ -9,6 +9,8 @@
 
 .App {
     background-color: rgb(61, 61, 61);
-    padding: 50px;
+    padding: 20px;
     align-items: center;
+    width: auto;
+    height: fit-content;
 }
