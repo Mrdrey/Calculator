@@ -29,9 +29,7 @@ export default function Calculator() {
     };
     return (
         <>
-            <div>
-                <h1>Ang panget Mo!</h1>
-            </div>
+
             <div className="Calculator-container">
                 <div className="input-container" >
                     <input type="text" value={expression} readOnly title="Screen" />
